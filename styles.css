@@ -57,10 +57,17 @@ ul {
   padding: 0;
 }
 
-.container #task-list .removeButton {
+.removeButton {
   color: white;
   background: red;
+  margin-right: 0;
+  /* margin-left: auto; */
 }
+
+.removeButton:hover {
+  background: rgb(241, 95, 95);
+}
+
 .todo-item {
   background-color: #fafafa;
   display: flex;
